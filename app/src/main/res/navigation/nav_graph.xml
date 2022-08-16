@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_read">
+
+    <fragment
+        android:id="@+id/navigation_favourites"
+        android:name="com.bibliographer.researchbible.presentation.fragmentFavourites.FavouriteFragment"
+        android:label="fragment_restaurants"
+        tools:layout="@layout/fragment_favourite" />
+    <fragment
+        android:id="@+id/navigation_read"
+        android:name="com.bibliographer.researchbible.presentation.readFragment.ReadFragment"
+        android:label="fragment_hits"
+        tools:layout="@layout/fragment_read" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.bibliographer.researchbible.presentation.searchFragment.SearchFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.bibliographer.researchbible.presentation.profileFragment.ProfileFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
