@@ -2,15 +2,57 @@
     <!-- Base application theme. -->
     <style name="Theme.BibleSearch" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue_dark</item>
-        <item name="colorPrimaryVariant">@color/blue_dark</item>
-        <item name="colorOnPrimary">@color/blue_dark</item>
+        <item name="colorPrimary">@color/colo_primary</item>
+        <item name="colorPrimaryVariant">@color/colo_primary</item>
+        <item name="colorOnPrimary">@color/blue</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/black</item>
-        <item name="colorSecondaryVariant">@color/blue_dark</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/colo_primary</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/blue</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor"
+            tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="BottomNavigationText"/>
+    <style name="BottomNavigationText.Selected">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BottomNavigationText.Unselected">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Button.ButtonSelect">
+        <item name="background">@color/white</item>
+        <item name="elevation">10dp</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.LabelRv">
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">android:text="@string/start_learning_bible_title"</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.LabelItalic">
+        <item name="android:fontFamily">"@font/heading_now_94_regular_italic_trial"</item>
+        <item name="android:textColor">@color/colo_primary</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.LabelDesc">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/manrope_medium</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.LabelNews">
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/colo_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
 </resources>
