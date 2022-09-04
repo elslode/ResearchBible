@@ -1,3 +1,3 @@
 # ResearchBible
 
-##Our Screenshots
+## Our Screenshots
