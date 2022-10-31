@@ -26,6 +26,7 @@ class AboutBibleBookFragment : Fragment() {
     companion object {
 
         const val AAA = "чет новое"
+        const val AAA2 = "чет новое 2"
 
         @JvmStatic
         fun newInstance() =
